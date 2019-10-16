@@ -1,5 +1,5 @@
 ---
-title: "Teams"
+title: "Minitalks"
 language: "en"
 next: "page.html"
 ---
@@ -8,11 +8,3 @@ next: "page.html"
 
 1. [The Importance of Concepting Deeply](#the-importance-of-concepting-properly)
 1. [First Playable Prototype](#first-playable-prototype)
-
-### The Importance of Concepting Deeply
-
-deep sia
-
-### First Playable Prototype
-
-first sia
