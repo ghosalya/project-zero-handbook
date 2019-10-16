@@ -5,32 +5,33 @@ language: en
   link: 'index.html'
   weight: 0
 
-- title: 'Multi-level menu'
+- title: 'Teams'
+  link: 'teams.html'
+  weight: 1
+
+- title: 'Mini Talks'
+  link: 'minitalks.html'
+  weight: 1
+
+- title: 'Gampeplay'
   link: '#'
   weight: 1
   children:
-    - title: 'Level 1'
+    - title: 'General Design'
       link: '#'
       weight: 0
-    - title: 'Level 2'
+    - title: 'First Person'
       link: '#'
       weight: 1
-    - title: 'Level 3'
+    - title: 'Top Down Games'
       link: '#'
       weight: 2
 
-- title: 'Another page'
+- title: 'Unity'
   link: 'page.html'
   weight: 2
 
-- title: 'External link'
-  link: 'https://www.skyost.eu'
-  weight: 2
-
-- title: 'Language'
+- title: 'Git Repository'
   link: '#'
   weight: 3
-  children:
-    - title: 'Français'
-      link: '/fr/'
-      weight: 0
+

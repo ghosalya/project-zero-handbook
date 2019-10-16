@@ -1,1 +1,1 @@
-java -jar "D:\VKhon\project-zero-handbook\project-zero-handbook\skydocs.jar" build
+java -jar skydocs.jar build
