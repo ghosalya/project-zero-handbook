@@ -17,3 +17,11 @@ To have the wiki served in localhost, do
 ```
 java -jar skydocs.jar serve
 ```
+
+# Using GitHub pages
+
+Github Pages will only check `docs/` directory
+```
+java -jar skydocs.jar build
+cp build/* docs/* -r
+```
