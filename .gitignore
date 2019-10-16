@@ -1,2 +1,3 @@
 build/
-theme/
+theme/*
+!theme/assets/

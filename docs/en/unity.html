@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Unity Tutorials - Project Zero</title>
+
+<meta name="description" content="Documentation built with SkyDocs."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="generator" content="SkyDocs v0.7.4 Beta"/>
+
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Unity Tutorials - Project Zero"/>
+<meta property="og:site_name" content="Project Zero"/>
+<meta property="og:url" content="https://skydocs.skyost.eu/en/unity.html"/>
+<meta property="og:description" content="Documentation built with SkyDocs."/>
+<meta property="og:image" content="https://skydocs.skyost.eu/assets/img/icon.png"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Unity Tutorials - Project Zero"/>
+<meta name="twitter:site" content="Project Zero"/>
+<meta name="twitter:creator" content="@Skyost_"/>
+<meta name="twitter:url" content="https://skydocs.skyost.eu/en/unity.html"/>
+<meta name="twitter:description" content="Documentation built with SkyDocs."/>
+<meta name="twitter:image" content="https://skydocs.skyost.eu/assets/img/icon.png"/>
+
+<meta name="theme-color" content="#2980b9"/>
+<link rel="icon" type="image/png" href="../assets/img/icon.png"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+<link rel="stylesheet" type="text/css" href="../assets/css/page.css"/>
+</head>
+<body>
+<div id="content" class="row">
+<div id="navbar" class="col-md-4 col-lg-3">
+<header>
+<h1><span class="logo"></span><a href="../en/">Project Zero</a></h1>
+<form action="../search.html" method="get">
+<input name="keywords" type="text" class="form-control" placeholder="Search...">
+</form>
+</header>
+<div id="mobile-bar" class="d-md-none clearfix">
+<i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<div id="navigation" class="d-none d-md-block">
+<nav>
+<ul>
+<li>
+<a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+</li>
+<li>
+<a href="teams.html">Teams</a>
+</li>
+<li>
+<a href="minitalks.html">Mini Talks</a>
+<ul>
+<li>
+<a href="minitalk1.html">Concepting Deeply</a>
+</li>
+<li>
+<a href="#">First Playable Prototype</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="unity.html">Coding Your Game</a>
+<ul>
+<li>
+<a href="unity.html">Unity Tutorials</a>
+</li>
+<li>
+<a href="#">Working with Git</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<footer class="col-md-4 col-lg-3">
+Powered by <a href="https://skydocs.skyost.eu">SkyDocs</a> v0.7.4 Beta.
+</footer>
+</div>
+</div>
+<div id="article" class="col-md-8 col-lg-9">
+<article class="col-md-12 col-lg-9">
+<section id="article-header" class="clearfix">
+<ul class="links">
+<li><small><a href="https://github.com/Skyost/SkyDocs/fork" class="text-muted">Fork it on Github</a></small></li>
+<li><small><a href="https://github.com/Skyost/SkyDocs" class="text-muted">Star it on Github</a></small></li>
+</ul>
+<small class="date text-muted">Oct 16, 2019 10:13:01 PM</small>
+</section>
+<section>
+<h1 id="unity-tutorials">Unity Tutorials</h1>
+<p>Below are some of resources to help build your games in Unity.</p>
+<h2 id="unity-workshop-2018">Unity Workshop 2018</h2>
+<p>Mindsports had a Unity Workshop that covers a step-by-step tutorial on basic mechanis for a 2D Shooter game (except for Week 2 which quickly covers Unity3D).</p>
+<p>It's available in Google Drive in <a href="https://drive.google.com/drive/folders/1uTiyEkhv9kkRYSSrA92GQp86sT6FpDko">https://drive.google.com/drive/folders/1uTiyEkhv9kkRYSSrA92GQp86sT6FpDko</a>.</p>
+<h2 id="unity-faq">Unity FAQ</h2>
+<p>A list of FAQ compiled by your mentors.</p>
+<p>Live version available in <a href="https://docs.google.com/document/d/1IGY36hnK-_QpNHj6nkQM8WFvR3IMH_tRRrAAK2Zu1Lg/">Google Docs</a>.</p>
+<ul>
+<li><a href="#debugging"><em>Debugging</em></a></li>
+<li><a href="#need-access-to-some-other-game-objects"><em>Need access to some other game objects?</em></a></li>
+<li><a href="#i-saw-serializefield-what-is-it"><em>I saw <code>[SerializeField]</code>, what is it?</em></a></li>
+<li><a href="#player-movement"><em>Player Movement</em></a></li>
+<li><a href="#looping-background"><em>Looping Background</em></a></li>
+<li><a href="#oh-no-what-is-prefab"><em>Oh no, what is prefab?</em></a></li>
+<li><a href="#2d-movement-enemy"><em>2D Movement (Enemy)</em></a></li>
+<li><a href="#rotation"><em>Rotation?</em></a></li>
+<li><a href="#layer-based-collision"><em>Layer Based Collision</em></a></li>
+<li><a href="#why-code-when-you-can-copy"><em>Why Code When You Can Copy</em></a></li>
+</ul>
+<h3 id="debugging"><em>Debugging</em></h3>
+<p>I present your <em><strong>best friend</strong></em>:</p>
+<pre><code class="language-c#">Debug.Log(&quot;I am alive!&quot;);
+</code></pre>
+<p><em>Note</em>: do this only when you need to, like something not behaving correctly, use this to print out your variables' values, or use this to know whether your function is called or not</p>
+<h3 id="need-access-to-some-other-game-objects"><em>Need access to some other game objects?</em></h3>
+<p>Finding a game object by <strong>tag</strong> or <strong>name</strong> might be useful.</p>
+<p><a href="https://docs.unity3d.com/2019.3/Documentation/Manual/ControllingGameObjectsComponents.html">https://docs.unity3d.com/2019.3/Documentation/Manual/ControllingGameObjectsComponents.html</a></p>
+<h3 id="i-saw-serializefield-what-is-it"><em>I saw <code>[SerializeField]</code>, what is it?</em></h3>
+<p>It is to make private variables visible in the inspector (the column on the right).</p>
+<p><img src="https://docs.unity3d.com/uploads/Main/InspectorWindowCallout.jpg" alt="Inspector Location"/></p>
+<p>To make a variable in a Component visible, you can either make it public:</p>
+<pre><code class="language-c#">public int health = 100;
+</code></pre>
+<p>or use <code>[SerializeField]</code></p>
+<pre><code class="language-c#">[SerializeField]
+private int health = 100;
+</code></pre>
+<p>Source: <a href="https://forum.unity.com/threads/when-to-use-serializefield-and-why.184687/#targetText=Serialization%20is%20the%20process%20of,it's%20state%20to%2Ffrom%20disk">https://forum.unity.com/threads/when-to-use-serializefield-and-why.184687/#targetText=Serialization%20is%20the%20process%20of,it's%20state%20to%2Ffrom%20disk</a></p>
+<p>About Inspector: <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">https://docs.unity3d.com/Manual/UsingTheInspector.html</a></p>
+<h3 id="player-movement"><em>Player Movement</em></h3>
+<p>Source: <a href="https://docs.unity3d.com/ScriptReference/Input.html">https://docs.unity3d.com/ScriptReference/Input.html</a></p>
+<h4 id="keyboard-controls">Keyboard Controls</h4>
+<table>
+<thead>
+<tr><th>Code</th><th>Explanation</th></tr>
+</thead>
+<tbody>
+<tr><td><code>Input.GetKey</code></td><td>Returns true while the user <strong>holds down</strong> the key identified by name.</td></tr>
+<tr><td><code>Input.GetKeyDown</code></td><td>Returns true during the frame the user <strong>starts pressing down</strong> the key identified by name.</td></tr>
+<tr><td><code>Input.GetKeyDown</code></td><td>Returns true during the frame the user <strong>releases</strong> the key identified by name.</td></tr>
+</tbody>
+</table>
+<h4 id="mouse-controls">Mouse Controls</h4>
+<table>
+<thead>
+<tr><th>Code</th><th>Explanation</th></tr>
+</thead>
+<tbody>
+<tr><td><code>Input.GetMouseButton</code></td><td>Returns whether the given mouse button is <strong>held down.</strong></td></tr>
+<tr><td><code>Input.GetMouseButtonDown</code></td><td>Returns true during the frame the user <strong>pressed</strong> the given mouse button.</td></tr>
+<tr><td><code>Input.GetMouseButtonUp</code></td><td>Returns true during the frame the user <strong>releases</strong> the given mouse button.</td></tr>
+</tbody>
+</table>
+<h3 id="looping-background"><em>Looping Background</em></h3>
+<p>Good for top-down shooter / infinite run kind of game
+<a href="https://learn.unity.com/tutorial/live-session-making-a-flappy-bird-style-game#5c7f8528edbc2a002053b69e">https://learn.unity.com/tutorial/live-session-making-a-flappy-bird-style-game#5c7f8528edbc2a002053b69e</a></p>
+<h3 id="oh-no-what-is-prefab"><em>Oh no, what is prefab?</em></h3>
+<p><a href="https://docs.unity3d.com/Manual/Prefabs.html">https://docs.unity3d.com/Manual/Prefabs.html</a></p>
+<p>Tl;dr, prefab = original copy of the game object, can be duplicated, if its component/properties are changed, every duplicate of it will change according to it.</p>
+<p><strong>How to make prefab?</strong> Drag the game object to your resources (the section below)</p>
+<h3 id="2d-movement-enemy"><em>2D Movement (Enemy)</em></h3>
+<p><a href="https://www.youtube.com/watch?v=dwcT-Dch0bA">https://www.youtube.com/watch?v=dwcT-Dch0bA</a></p>
+<p><a href="https://docs.unity3d.com/ScriptReference/Transform.html">https://docs.unity3d.com/ScriptReference/Transform.html</a></p>
+<h3 id="rotation"><em>Rotation?</em></h3>
+<p>Good luck differentiating and learning <a href="https://en.wikipedia.org/wiki/Quaternion">Quaternion</a> and <a href="https://en.wikipedia.org/wiki/Euler_angles">Euler</a> in unity.</p>
+<p><a href="https://docs.unity3d.com/Manual/QuaternionAndEulerRotationsInUnity.html">https://docs.unity3d.com/Manual/QuaternionAndEulerRotationsInUnity.html</a></p>
+<p><a href="https://docs.unity3d.com/ScriptReference/Transform.Rotate.html">https://docs.unity3d.com/ScriptReference/Transform.Rotate.html</a></p>
+<p><a href="https://docs.unity3d.com/ScriptReference/Transform-rotation.html">https://docs.unity3d.com/ScriptReference/Transform-rotation.html</a></p>
+<h3 id="layer-based-collision"><em>Layer Based Collision</em></h3>
+<p>So that your enemies’ projectiles don’t hit the enemies (no friendly fire)</p>
+<p><a href="https://docs.unity3d.com/Manual/LayerBasedCollision.html">https://docs.unity3d.com/Manual/LayerBasedCollision.html</a></p>
+<h3 id="why-code-when-you-can-copy"><em>Why Code When You Can Copy</em></h3>
+<p><strong>First-Person Controller</strong>: <a href="https://docs.unity3d.com/Manual/class-CharacterController.html">https://docs.unity3d.com/Manual/class-CharacterController.html</a></p>
+<p><strong>Navigation AI</strong> (NavMesh): <a href="https://docs.unity3d.com/Manual/nav-Overview.html">https://docs.unity3d.com/Manual/nav-Overview.html</a></p>
+<p><img src="https://docs.unity3d.com/uploads/Main/NavMeshAgentSetup.svg" alt="navmesh"/></p>
+</section>
+<section id="pagination" class="clearfix">
+<a href="minitalks.html" class="text-muted previous"><i class="fa fa-caret-left" aria-hidden="true"></i> <span>Previous</span></a>
+</section>
+</article>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
+<script src="../assets/js/page.js"></script>
+</body>
+</html>

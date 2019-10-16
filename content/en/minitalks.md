@@ -1,7 +1,8 @@
 ---
 title: "Minitalks"
 language: "en"
-next: "page.html"
+previous: "teams.html"
+next: "minitalk1.html"
 ---
 
 # Mini Talks

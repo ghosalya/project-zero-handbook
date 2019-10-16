@@ -1,7 +1,7 @@
 ---
 title: "Importance of Concepting Deeply"
 language: "en"
-next: "page.html"
+next: "minitalks.html"
 ---
 # Importance of Concepting Deeply
 

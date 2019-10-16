@@ -23,5 +23,5 @@ java -jar skydocs.jar serve
 Github Pages will only check `docs/` directory
 ```
 java -jar skydocs.jar build
-cp build/* docs/* -r
+cp build/* docs/ -r
 ```
