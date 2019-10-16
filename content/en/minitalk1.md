@@ -60,7 +60,4 @@ An example of a paper prototype:
 
 Have fun
 
-## First Playable Prototype
----
 
-first sia
