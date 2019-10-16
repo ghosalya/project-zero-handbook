@@ -1,7 +1,8 @@
 ---
 title: "Teams"
 language: "en"
-next: "page.html"
+previous: "index.html"
+next: "minitalks.html"
 ---
 
 # Teams

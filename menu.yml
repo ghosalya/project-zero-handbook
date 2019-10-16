@@ -12,26 +12,21 @@ language: en
 - title: 'Mini Talks'
   link: 'minitalks.html'
   weight: 1
+  children:
+    - title: 'Concepting Deeply'
+      link: 'minitalk1.html'
+      weight: 0
+    - title: 'First Playable Prototype'
+      link: '#'
+      weight: 1
 
-- title: 'Gampeplay'
+- title: 'Coding Your Game'
   link: '#'
   weight: 1
   children:
-    - title: 'General Design'
+    - title: 'Unity Tutorials'
       link: '#'
       weight: 0
-    - title: 'First Person'
+    - title: 'Working with Git'
       link: '#'
       weight: 1
-    - title: 'Top Down Games'
-      link: '#'
-      weight: 2
-
-- title: 'Unity'
-  link: 'page.html'
-  weight: 2
-
-- title: 'Git Repository'
-  link: '#'
-  weight: 3
-
