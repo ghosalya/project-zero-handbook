@@ -18,11 +18,13 @@ Each team is also given 3 "words" to guide and restrict their game design: a ran
 
 Members:
 
-* a member
+* Low Wei Kang
+* Alyssa Ng
+* Sybil
 
-Mentor: name
+Mentor: Zach
 
-Words: one, two, three
+Words: Cat-Dog, Platformer, MS Paint
 
 ---
 
@@ -30,11 +32,13 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Juay Jing Min
+* Darren Loh
+* Qiao Yingjie
 
-Mentor: name
+Mentor: Alfred
 
-Words: one, two, three
+Words: Shooter, Bullet Hell, 1 Key/Mouse Only
 
 ---
 
@@ -42,11 +46,12 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Jia Wei
+* Yi Cheng
 
-Mentor: name
+Mentor: Yu Xiang
 
-Words: one, two, three
+Words:
 
 ---
 
@@ -54,11 +59,14 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Jin
+* Luc
+* Leon Tjandra
+* Daniel
 
-Mentor: name
+Mentor: Jonathan
 
-Words: one, two, three
+Words: Point & Click, Durian Tempura, MS Paint*
 
 ---
 
@@ -66,11 +74,14 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Zhiyi
+* Yi Tong
+* Zhihan
+* Luna
 
-Mentor: name
+Mentor: Amanda
 
-Words: one, two, three
+Words: Environmentally Friendly, Top Down Shooter, No Core Mechanics
 
 ---
 
@@ -78,11 +89,15 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Janelle Ho
+* Tang En Jie
+* Tan Pei Wen
+* Thoon Zar Chi Ko
+* Theint Myat Wai
 
-Mentor: name
+Mentor: Gede
 
-Words: one, two, three
+Words: Slab, Stealth, Sound Voiced by Members
 
 ---
 
@@ -90,11 +105,15 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Yap Swee En
+* Shaira
+* Jiayue
+* Yizhe
+* Wentao
 
-Mentor: name
+Mentor: Jason
 
-Words: one, two, three
+Words: Powerpuff Girls, ~~Survival~~, Portrait
 
 ---
 
@@ -102,8 +121,11 @@ Words: one, two, three
 
 Members:
 
-* a member
+* Lizabeth Mirabel
+* Hui Wen
+* Wei Wen
+* Justin
 
-Mentor: name
+Mentor: Clara
 
-Words: one, two, three
+Words: Blood, Tower Defense, 1 Key/No Mouse
