@@ -1,0 +1,29 @@
+---
+title: "Start of Alpha Stage"
+language: "en"
+next: "page.html"
+---
+# Start of Alpha Stage
+
+### _It's time to nail things down!_
+- Collect your data
+- Finalize, more or less, your core mechanics
+- Move to main body production!
+
+### _Alpha Stage!_
+In this stage, there's no more prototyping! If you have decisions to make, try to make them now. Because after this is the heaviest part of coding!
+
+![codinggggg](https://thumbs.gfycat.com/TornOblongAsianconstablebutterfly-small.gif "Codinggg")
+
+### _What you **CANNOT** leave until Beta Stage_
+- Main gameplay mechanics
+- **Basic** art assets
+- Essential UI
+
+### _What you **SHOULD** leave until Beta Stage_
+- Peripheral mechanics
+- Content extensions
+- Sound effects
+- "Nicer" art and UI
+
+### _

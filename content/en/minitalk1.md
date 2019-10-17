@@ -49,6 +49,7 @@ Dynamics focused game: DOTA and co.
 Aesthetics focused game: Hellblade
 
 ### _So now we have an idea, let's start codi-HOW ABOUT NO?_
+![no!](https://media.giphy.com/media/84U5XbAPpNKxy/giphy.gif) 
 Let's start with **paper prototyping**.
 Why?  
 It's cheap, fast, check gameplay issues/benefits before expending any effort coding it.  
