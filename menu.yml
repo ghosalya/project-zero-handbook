@@ -28,5 +28,5 @@ language: en
       link: 'unity.html'
       weight: 0
     - title: 'Working with Git'
-      link: '#'
+      link: 'git.html'
       weight: 1
