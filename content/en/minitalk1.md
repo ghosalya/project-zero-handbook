@@ -1,7 +1,7 @@
 ---
-title: "Importance of Concepting Deeply"
+title: "First Playable Prototype"
 language: "en"
-next: "page.html"
+next: "minitalk2.html"
 ---
 # Importance of Concepting Deeply
 
@@ -58,6 +58,5 @@ Check your mechanics: is it fun?  Does it create good dynamics? Or is it just an
 An example of a paper prototype:
 ![Paper prototype](https://media.indiedb.com/cache/images/games/1/15/14163/thumb_620x2000/prototype.jpg "Paper prototype example")
 
-Have fun
-
-
+Now, go and have fun!
+![have fun](https://media2.giphy.com/media/WqMHxDCpBQAyMnbvEn/giphy.gif)
