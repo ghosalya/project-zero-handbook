@@ -1,7 +1,7 @@
 ---
 title: "Importance of Concepting Deeply"
 language: "en"
-next: "minitalks.html"
+next: "minitalk2.html"
 ---
 # Importance of Concepting Deeply
 
@@ -49,6 +49,7 @@ Dynamics focused game: DOTA and co.
 Aesthetics focused game: Hellblade
 
 ### _So now we have an idea, let's start codi-HOW ABOUT NO?_
+![no!](https://media.giphy.com/media/84U5XbAPpNKxy/giphy.gif)  
 Let's start with **paper prototyping**.
 Why?  
 It's cheap, fast, check gameplay issues/benefits before expending any effort coding it.  
@@ -58,6 +59,5 @@ Check your mechanics: is it fun?  Does it create good dynamics? Or is it just an
 An example of a paper prototype:
 ![Paper prototype](https://media.indiedb.com/cache/images/games/1/15/14163/thumb_620x2000/prototype.jpg "Paper prototype example")
 
-Have fun
-
-
+Now, go and have fun!
+![have fun](https://media2.giphy.com/media/WqMHxDCpBQAyMnbvEn/giphy.gif)
