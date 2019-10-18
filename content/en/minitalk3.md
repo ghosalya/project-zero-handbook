@@ -26,4 +26,7 @@ In this stage, there's no more prototyping! If you have decisions to make, try t
 - Sound effects
 - "Nicer" art and UI
 
-### _
+### _Now git_
+It's a good time to start souce control. Other than that, stick to your work and get it done.
+
+A way to get you started with git: add link here
