@@ -1,5 +1,5 @@
 ---
-title: "First Playable Prototype"
+title: "Importance of Concepting Deeply"
 language: "en"
 next: "minitalk2.html"
 ---
