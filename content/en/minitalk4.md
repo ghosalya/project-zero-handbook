@@ -36,3 +36,16 @@ Time to trim your dreams before you get rekt.
 - **ALL** content extensions
 - Most sound effects
 - Most art and UI
+
+### _Only leave for **GOLD**,_
+- Final polishing on art & UI
+- Playing _whack a mole_ with bugs.
+- Making promotional materials
+    - Trailer / screenshots
+    - Poster / title art
+
+### _For those who are really attached..._
+If you can’t move on, just imagine this is graded and has a hard deadline. If you really like your game, you can expand on it **after the workshop**. But get it to a _‘finished’_ state first! It may never move on.
+
+Now,
+## _Git on with it._
