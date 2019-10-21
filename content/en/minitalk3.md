@@ -1,7 +1,8 @@
 ---
 title: "Start of Alpha Stage"
 language: "en"
-next: "page.html"
+previous: "minitalk2.html"
+next: "minitalk4.html"
 ---
 # Start of Alpha Stage
 
@@ -29,4 +30,4 @@ In this stage, there's no more prototyping! If you have decisions to make, try t
 ### _Now git_
 It's a good time to start souce control. Other than that, stick to your work and get it done.
 
-A way to get you started with git: add link here
+A way to get you started with git: [git - the simple guide](https://rogerdudler.github.io/git-guide/)

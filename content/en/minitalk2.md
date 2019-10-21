@@ -1,6 +1,7 @@
 ---
 title: "First Playable Prototype"
 language: "en"
+previous: "minitalk1.html"
 next: "minitalk3.html"
 ---
 # First Playable Prototype
