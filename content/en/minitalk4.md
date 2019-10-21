@@ -1,7 +1,8 @@
 ---
 title: "Time to Do Some Cutting (not the psycho kind)"
 language: "en"
-next: "page.html"
+previous: "minitalk3.html"
+next: "minitalk5.html"
 ---
 
 # Time to Do Some Cutting (not the psycho kind)

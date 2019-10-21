@@ -9,20 +9,9 @@ language: en
   link: 'teams.html'
   weight: 1
 
-- title: 'Mini Talks'
-  link: 'minitalks.html'
-  weight: 1
-  children:
-    - title: 'Concepting Deeply'
-      link: 'minitalk1.html'
-      weight: 0
-    - title: 'First Playable Prototype'
-      link: '#'
-      weight: 1
-
 - title: 'Coding Your Game'
   link: 'unity.html'
-  weight: 1
+  weight: 2
   children:
     - title: 'Unity Tutorials'
       link: 'unity.html'
@@ -30,3 +19,23 @@ language: en
     - title: 'Working with Git'
       link: '#'
       weight: 1
+
+- title: 'Mini Talks'
+  link: 'minitalks.html'
+  weight: 3
+  children:
+    - title: 'Concepting Deeply'
+      link: 'minitalk1.html'
+      weight: 0
+    - title: 'First Playable Prototype'
+      link: 'minitalk2.html'
+      weight: 1
+    - title: 'Start of Alpha Stage'
+      link: 'minitalk3.html'
+      weight: 2
+    - title: 'Time to Do Some Cutting'
+      link: 'minitalk4.html'
+      weight: 3
+    - title: 'Polishing Up'
+      link: 'minitalk5.html'
+      weight: 4
